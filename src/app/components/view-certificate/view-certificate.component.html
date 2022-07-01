@@ -1,0 +1,21 @@
+<div class="certificate-container">
+    <div class="certificate">
+        <div class="water-mark-overlay"></div>
+        <div class="certificate-header">
+            <img [src]="imgsrc" class="logo" alt="">
+        </div>
+        <div class="certificate-body">
+            <h1>Certificate of Completion</h1>
+            <p class="student-name">{{data.name}}</p>
+            <div class="certificate-content">
+                <div class="about-certificate">
+                    <p>
+                        has completed with Total Marks: {{totalMarks}}
+                    </p>
+                    <p>
+                        Your Grade is: {{grade}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>

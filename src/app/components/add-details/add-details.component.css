@@ -1,0 +1,21 @@
+
+.error2 {
+    
+    color: lightcoral;
+    font-size: 10px;
+}
+.btn-generate{
+    margin-right: 10px;
+}
+.fileInput{
+    margin-left: 17px;
+    margin-bottom: 20px;
+}
+.score-grid{
+  margin-bottom: 50px;
+}
+@media print {
+    .btn-generate {
+      display: none;
+    }
+}
